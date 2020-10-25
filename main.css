@@ -1,0 +1,100 @@
+{
+    margin: 0;
+}
+
+#main-content
+{
+    margin: 0;
+    padding: 0;
+    background-color: #AA3333;
+    min-height: 100vh;
+}
+
+header, nav
+{
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    font-size: 44px;
+    color: black;
+    font-weight: 600;
+    background-color: #3eb489;
+}
+
+nav
+{
+    padding: 5px;
+    border-top: 5px solid #AA3333;
+    font-size: 38px;
+}
+
+nav:hover
+{
+    cursor: pointer;
+    background-color: #4F574F;
+}
+
+#notes
+{
+    margin: 1%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.note
+{
+    margin: 1%;
+    padding: 1%;
+    background-color: #9edec6;
+    color: #AA3333;
+    font-size: 30px;
+    font-weight: 400;
+    min-width: 20%;
+    min-height: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.title
+{
+    font-size: 30px;
+    text-align: center;
+}
+
+.title, .content
+{
+    background-color: #3eb489;
+    margin: 2px;
+    border: none;
+}
+
+.title:focus, .content:focus, .title:hover, .content:hover
+{
+    background-color: #3eb489;
+}
+
+.title:focus, .content:focus
+{
+    outline-color: black;
+}
+
+.content
+{
+    padding: 1%;
+    font-size: 25px;
+    text-align: left;
+}
+
+.remove
+{
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.remove:hover
+{
+    cursor: pointer;
+    background-color: #886666;
+}
